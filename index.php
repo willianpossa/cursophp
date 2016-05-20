@@ -1,6 +1,6 @@
 <?php 
-
-/*require_once 'pessoa.php';
+/*
+require_once 'pessoa.php';
 
 	$pessoa1 = new Pessoa("Willian", 19, "Rua Acacio Vasconcelos");
 
@@ -42,6 +42,7 @@
 
 		echo "$var <br>";
 		echo "$var <br>";
+
 */
 
 require_once 'produto.php';
@@ -59,7 +60,7 @@ require_once 'sapatenis.php';
 
 	echo $tenis->getColor();
 
-		echo "$var <br>";
-		echo "$var <br>";
+		echo "<br>";
+		echo "<br>";
 
 	echo $tenis->getSize();
